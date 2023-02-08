@@ -2364,7 +2364,7 @@ var VueBrowserDetect = {
       };
     }
 
-    Vue.prototype.$browserDetect = browserObj;
+    Vue.config.globalProperties.$browserDetect = browserObj;
   }
 };
 /* harmony default export */ var main = (VueBrowserDetect);
