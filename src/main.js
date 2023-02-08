@@ -54,7 +54,7 @@ const VueBrowserDetect = {
       return { name: M[0], version: M[1] };
     }
 
-    Vue.prototype.$browserDetect = browserObj;
+     Vue.config.globalProperties.$browserDetect = browserObj;
   }
 };
 
