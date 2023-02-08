@@ -16,6 +16,9 @@ In your `main.js:`
 ```bash
 import browserDetect from "vue-browser-detect-plugin";
 Vue.use(browserDetect);
+or app.use(browserDetect).mount('#app')
+
+## depending on how you've set up your app
 ```
 
 ## Usage
