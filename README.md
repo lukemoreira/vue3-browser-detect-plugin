@@ -1,4 +1,5 @@
-# Vue Browser Detect Plugin
+# A fork from Vue Browser Detect Plugin (https://github.com/ICJIA/vue-browser-detect-plugin) 
+# with a small adjustment to work with vue3
 
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
